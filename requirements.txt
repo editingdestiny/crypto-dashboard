@@ -1,0 +1,9 @@
+flask
+requests
+dash
+ccxt
+pandas
+dash_html_components
+numpy
+tensorflow
+scikit-learn
