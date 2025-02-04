@@ -135,6 +135,14 @@ threading.Thread(target=data_updater, daemon=True).start()
 
 # App layout
 app.layout = html.Div([
+    html.Div([
+        html.Iframe(
+            src='http://192.168.1.247:8080',
+            width='100%',
+            height='600px',
+            style={'border': 'none'}
+        )
+    ], style={'margin-bottom': '20px'}),  # Add spacing below the iframe
     html.H1("Crypto Price Tracker", style={'text-align': 'center'}),
     
     dcc.Dropdown(
