@@ -1,0 +1,22 @@
+# Ignore logs and cache
+*.log
+__pycache__/
+*.pyc
+
+# Ignore local virtual environments
+venv/
+.venv/
+
+# Ignore dataset files
+*.csv
+*.json
+*.db
+*.h5
+*.pth
+*.onnx
+models/
+checkpoints/
+
+# Ignore Docker build files
+.git/
+.dockerignore
